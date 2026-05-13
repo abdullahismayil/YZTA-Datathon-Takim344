@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Veri (Kaggle'dan indirilir, repo'da taşımayız)
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Output (logları tutalım, submission'lar isteğe bağlı)
+outputs/submissions/*.csv
+outputs/oof/*.npy
+outputs/oof/*.csv
